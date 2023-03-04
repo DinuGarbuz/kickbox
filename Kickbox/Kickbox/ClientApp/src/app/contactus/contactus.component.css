@@ -54,8 +54,11 @@ input[type=submit] {
   }
 }
 
-/* Set the size of the div element that contains the map */
-#map {
-  height: 400px; /* The height is 400 pixels */
-  width: 100%; /* The width is the width of the web page */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }

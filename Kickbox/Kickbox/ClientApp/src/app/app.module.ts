@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { GoogleMapsModule } from '@angular/google-maps';
+//import { GoogleMapsModule } from '@angular/google-maps';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
@@ -28,7 +28,7 @@ import { ContactUsComponent } from './contactus/contactus.component';
       { path: 'info', component: CounterComponent },
       { path: 'contact', component: ContactUsComponent },
     ]),
-    GoogleMapsModule
+    //GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

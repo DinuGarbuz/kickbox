@@ -8,27 +8,31 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 import { ContactUsComponent } from './contactus/contactus.component';
 import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
+    ScheduleComponent,
     ContactUsComponent,
     FooterComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'info', component: CounterComponent },
+      { path: 'orar', component: ScheduleComponent },
+      { path: 'galerie', component: GalleryComponent },
       { path: 'contact', component: ContactUsComponent },
+      { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: '**', redirectTo: '' },
     ]),
     //GoogleMapsModule
   ],

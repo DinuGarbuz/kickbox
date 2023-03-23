@@ -1,1 +1,44 @@
-<p style="color: white">gallery works!</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="color:white">Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color: white;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      margin: 50px;
+    }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+      }
+  </style>
+</head>
+<body>
+  <h1>Gallery Page</h1>
+  <div class="gallery">
+    <img src="../../assets/images/home1.jpg" alt="Image 1">
+    <img src="../../assets/images/home2.jpg" alt="Image 1">
+    <img src="../../assets/images/kickboxteam.jpg" alt="Image 1">
+    <img src="../../assets/images/karateadulti.jpg" alt="Image 1">
+    <img src="../../assets/images/karatecopii.jpg" alt="Image 1">
+    <img src="../../assets/images/nicu.jpg" alt="Image 1">
+    <img src="../../assets/images/home3.jpg" alt="Image 1">
+    <img src="../../assets/images/img1.jpg" alt="Image 1">
+  </div>
+</body>
+</html>

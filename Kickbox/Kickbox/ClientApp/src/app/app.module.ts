@@ -12,6 +12,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { ContactUsComponent } from './contactus/contactus.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { CompetitionComponent } from './competition/competition.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     ContactUsComponent,
     FooterComponent,
     GalleryComponent,
+    CompetitionComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -29,6 +31,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     FormsModule,
     RouterModule.forRoot([
       { path: 'orar', component: ScheduleComponent },
+      { path: 'competitii', component: CompetitionComponent },
       { path: 'galerie', component: GalleryComponent },
       { path: 'contact', component: ContactUsComponent },
       { path: '', component: HomeComponent, pathMatch: 'full' },

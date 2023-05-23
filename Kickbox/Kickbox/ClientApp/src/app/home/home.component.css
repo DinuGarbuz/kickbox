@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #181818;
 }
 
   .header .logo {
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #181818;
   margin-right: 20px;
 }
 

@@ -2,7 +2,7 @@
   display: table;
   width: 100%; /*Optional*/
   table-layout: fixed; /*Optional*/
-  border-spacing: 40px; /*Optional*/
+  border-spacing: 80px; /*Optional*/
 }
 
 .Column {

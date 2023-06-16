@@ -13,6 +13,7 @@ import { ContactUsComponent } from './contactus/contactus.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CompetitionComponent } from './competition/competition.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CompetitionComponent } from './competition/competition.component';
     FooterComponent,
     GalleryComponent,
     CompetitionComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,6 +36,7 @@ import { CompetitionComponent } from './competition/competition.component';
       { path: 'competitii', component: CompetitionComponent },
       { path: 'galerie', component: GalleryComponent },
       { path: 'contact', component: ContactUsComponent },
+      { path: 'despre-noi', component: AboutUsComponent },
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: '**', redirectTo: '' },
     ]),

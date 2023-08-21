@@ -1,0 +1,32 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 40px;
+  border-top: 2px solid #eeeeee;
+}
+
+  .about-me img {
+    /*border-radius: 10px;*/
+    margin: 50px;
+    border: 5px solid #ffffff;
+  }
+
+.about-me-text {
+  padding: 20px;
+}
+
+  .about-me-text h2 {
+    font-size: 30px;
+    color: rgb(210,210,210);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .about-me-text p {
+    font-size: 15px;
+    color: rgb(210,210,210);
+    margin: 10px 0;
+    text-align: justify;
+  }
